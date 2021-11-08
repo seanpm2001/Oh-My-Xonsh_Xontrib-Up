@@ -18,7 +18,7 @@ This lets you type simple commands like `ls (upp 4)` instead of
 `ls ../../../..`.
 
 This is the best kind of `up`, where dogs can talk and everyone lives happily
-ever after running [fish][fish-shell].
+ever after running [xonsh][xonsh].
 
 ## Commands
 
