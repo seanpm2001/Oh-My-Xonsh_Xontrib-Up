@@ -14,7 +14,7 @@ Type `up` to go up one directory. Type `up 2` to go up two directories. Type
 No more defining an alias for `cd ../../../../../../..`.  Just type `up 7`.
 
 You can also get the path that `up` will produce by using `upp` (up path).
-This lets you type simple commands like `ls (upp 4)` instead of
+This lets you type simple commands like `ls $(upp 4)` instead of
 `ls ../../../..`.
 
 This is the best kind of `up`, where dogs can talk and everyone lives happily
