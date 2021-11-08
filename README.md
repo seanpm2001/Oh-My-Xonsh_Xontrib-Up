@@ -44,7 +44,7 @@ $ lsup -laFGh 3
 
 ## Install
 
-Install up via `xpip`:
+Install from PyPI via `xpip`:
 
 ```shell
 xpip install xontrib-up
@@ -56,7 +56,9 @@ Then, add this to your `~/.config/xonsh/rc.xsh` or `~/.xonshrc`:
 xontrib load up
 ```
 
-You can also install directly from this repo instead of PyPI:
+## Alternative install
+
+Alternatively, you can also install directly from this repo (or your own fork) instead of using PyPI:
 
 ```shell
 xpip install git+https://github.com/oh-my-xonsh/xontrib-up.git
