@@ -26,16 +26,13 @@ $ # pushd -q .; cd ../../../..; echo $PWD; popd -q
 $ upp 4
 ```
 
-Listing ancestor dir with `ls` requires balloons, but not anymore.
+Listing ancestor directories with `ls` requires balloons, but not anymore.
 A simple way to list ancestor dirs is with `lsup`, which forwards on any options to `ls`.
 
 ```shell
 $ # long list everything 3 dirs up (ie: `ls -opts ../../..`)
 $ lsup -laFGh 3
 ```
-
-This is the best kind of `up`, where dogs can talk and everyone lives happily
-ever after running [xonsh][xonsh].
 
 ## Commands
 
