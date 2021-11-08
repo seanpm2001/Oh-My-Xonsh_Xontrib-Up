@@ -5,7 +5,7 @@ def _up(args):
     if not args or len(args) < 1:
         args = [1]
     balloons = ('../' * int(args[0]))
-    command cd @(balloons)
+    cd @(balloons)
 aliases['up'] = _up
 
 def _upp(args):
