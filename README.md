@@ -13,19 +13,37 @@ Type `up` to go up one directory. Type `up 2` to go up two directories. Type
 
 No more defining an alias for `cd ../../../../../../..`.  Just type `up 7`.
 
+```shell
+$ # cd ../../..
+$ up 3
+```
+
 You can also get the path that `up` will produce by using `upp` (up path).
-This lets you type simple commands like `ls $(upp 4)` instead of
-`ls ../../../..`.
+This lets you see what directory up will produce.
+
+```shell
+$ # pushd -q .; cd ../../../..; echo $PWD; popd -q
+$ upp 4
+```
+
+Listing ancestor dir with `ls` requires balloons, but not anymore.
+A simple way to list ancestor dirs is with `lsup`, which forwards on any options to `ls`.
+
+```shell
+$ # long list everything 3 dirs up (ie: `ls -opts ../../..`)
+$ lsup -laFGh 3
+```
 
 This is the best kind of `up`, where dogs can talk and everyone lives happily
 ever after running [xonsh][xonsh].
 
 ## Commands
 
-| Command | Description                           |
-|:--------|:--------------------------------------|
-| `up`    | Travel up any number of directories   |
-| `upp`   | Get the path of an ancestor directory |
+| Command | Description                                |
+|:--------|:-------------------------------------------|
+| `up`    | Travel up any number of directories        |
+| `upp`   | Get the path of an ancestor directory      |
+| `lsup`  | List the contents of an ancestor directory |
 
 ## Install
 

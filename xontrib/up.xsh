@@ -16,10 +16,10 @@ def _upp(args):
     return pf"{$PWD}/{balloons}".resolve()
 aliases['upp'] = _upp
 
-def _lup(args):
+def _lsup(args):
     """`ls` ancestor directories"""
     if not args or len(args) < 1:
         args = [1]
     balloons = ('../' * int(args[-1]))
     command ls @(args[0:-1]) @(balloons)
-aliases['lup'] = _lup
+aliases['lsup'] = _lsup
