@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from setuptools import setup
+import setuptools
 
 try:
     with open('README.md', 'r', encoding='utf-8') as fh:
@@ -7,7 +7,7 @@ try:
 except (IOError, OSError):
     long_description = ''
 
-setup(
+setuptools.setup(
     name='xontrib-up',
     version='1.0.0',
     license='MIT',
