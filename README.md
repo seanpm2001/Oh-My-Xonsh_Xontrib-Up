@@ -48,20 +48,13 @@ Install from PyPI via `xpip`:
 
 ```shell
 xpip install xontrib-up
+# or: xpip install -U git+https://github.com/mattmc3/xontrib-up
 ```
 
 Then, add this to your `~/.config/xonsh/rc.xsh` or `~/.xonshrc`:
 
 ```shell
 xontrib load up
-```
-
-## Alternative install
-
-Alternatively, you can also install directly from this repo (or your own fork) instead of using PyPI:
-
-```shell
-xpip install git+https://github.com/oh-my-xonsh/xontrib-up.git
 ```
 
 [xonsh]: https://xon.sh
