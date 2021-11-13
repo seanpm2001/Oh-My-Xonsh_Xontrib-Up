@@ -14,5 +14,9 @@ trim_trailing_whitespace = true
 indent_style = space
 trim_trailing_whitespace = false
 
+[*.yml]
+indent_size = 2
+indent_style = space
+
 [*.{py,xsh}]
 indent_style = space
