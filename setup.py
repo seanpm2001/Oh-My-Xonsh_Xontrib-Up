@@ -9,7 +9,7 @@ except (IOError, OSError):
 
 setuptools.setup(
     name='xontrib-up',
-    version='1.0.0',
+    version='1.0.1-dev',
     license='MIT',
     author='mattmc3',
     author_email='ohmyxonsh@gmail.com',
